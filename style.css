@@ -1,3 +1,20 @@
 body {
     background-color: rgb(225, 208, 255);
+    margin: 30px 90px 90px 90px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 114;
+    
+}
+
+.white-text {
+    color: #FEFEFE;
+    margin: 90px 10px 10px 10px;
+}
+
+.purple-text {
+    color: #6C4CA4;
+    margin: 10px;
 }
