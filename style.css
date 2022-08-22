@@ -96,3 +96,13 @@ h6 {
     flex-direction: row-reverse;
     align-items: center;
 }
+
+.second-section > h4 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.second-section > article{
+    position: relative;
+}
