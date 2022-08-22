@@ -54,6 +54,46 @@ h6 {
     margin: 30px 90px 90px 90px;
     display: flex;
 }
+
+.first-section > div > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.principal-button {
+    background-color:#6C4CA4;
+    color: #FEFEFE;
+    width: 120px;
+    height: 36px;
+    margin: 54px 31px 10px 160px;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.principal-button:hover {
+    background-color:#493171;
+}
+
+.second-button {
+    background-color:#E1D0FF;
+    color:#6C4CA4;
+    width: 120px;
+    height: 36px;
+    margin: 54px 31px;
+    border-color:#6C4CA4;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.second-button:hover {
+    background-color:#493171;
+    color:#FEFEFE;
+    border: none;
+}
+
+
 .second-section {
     width: 100%;
     background-color: #CDB6F5;
@@ -97,12 +137,16 @@ h6 {
     align-items: center;
 }
 
-.second-section > h4 {
-    position: absolute;
-    top: 0px;
-    left: 10px;
+.second-section > article {
+    position: relative;
 }
 
-.second-section > article{
-    position: relative;
+.second-section > article > h4 {
+    position: absolute;
+    top: 59px;
+    left: 77px;
+}
+
+.second-section > article > div {
+
 }
