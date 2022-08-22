@@ -45,7 +45,7 @@ h6 {
 
 .follow-me-text {
     color: #6C4CA4;
-    
+    margin: 29px 27px;
 }
 .first-section {
     background-color: rgb(225, 208, 255);
@@ -64,7 +64,7 @@ h6 {
 }
 
 #imagenYajha {
-    padding: 103px 84px 10px 84px;
+    padding: 103px 0px 10px 84px;
     display: flex;
     align-items: flex-end;
 }
@@ -72,5 +72,13 @@ h6 {
 .header-orientation {
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+}
+
+.header-orientation > a{
+    margin: 29px 27px;
+}
+
+.second-section > img {
+    margin: 47px 54px;
 }
