@@ -32,7 +32,7 @@ h5 {
 h6 {
     color: #E1D0FF;
     font-size: 12;
-    font-family: 'Rubik light', sans-serif;
+    font-family: 'Rubik light', sans-serif
 }
 
 .white-text {
@@ -148,5 +148,9 @@ h6 {
 }
 
 .second-section > article > div {
-
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 120px;
+    left: 65px;
 }
