@@ -167,3 +167,15 @@ h6 {
 .footer {
     background-color: #E1D0FF;
 }
+
+.footer-orientation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-orientation > a {
+    margin: 29px 27px;
+    display: flex;
+}
