@@ -21,6 +21,7 @@ h3 {
 h4 {
     font-size: 17;
     font-family: 'Rubik light', sans-serif;
+    color: #FEFEFE;
 }
 
 h5 {
@@ -29,6 +30,7 @@ h5 {
 }
 
 h6 {
+    color: #E1D0FF;
     font-size: 12;
     font-family: 'Rubik light', sans-serif;
 }
@@ -54,8 +56,8 @@ h6 {
 }
 .second-section {
     width: 100%;
-    margin: 0px;
     background-color: #CDB6F5;
+    display: flex;
 }
 
 .initial-text {
@@ -77,8 +79,20 @@ h6 {
 
 .header-orientation > a{
     margin: 29px 27px;
+    display: flex;
 }
 
 .second-section > img {
+    display: flex;
+    align-items: flex-end;
+}
+
+.memoji {
     margin: 47px 54px;
+}
+
+#textura {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
