@@ -1,12 +1,36 @@
 body {
     background-color: rgb(225, 208, 255);
-    margin: 30px 90px 90px 90px;
     font-family: 'Rubik', sans-serif;
 }
 
 h1 {
-    font-size: 114;
-    
+    font-size: 114; 
+    font-family: 'Rubik', sans-serif; 
+}
+
+h2 {
+    font-size: 80;
+    font-family: 'Rubik bold', sans-serif;
+}
+
+h3 {
+    font-size: 60;
+    font-family: 'Rubik medium', sans-serif;
+}
+
+h4 {
+    font-size: 17;
+    font-family: 'Rubik light', sans-serif;
+}
+
+h5 {
+    font-size: 13;
+    font-family: 'Rubik light', sans-serif;
+}
+
+h6 {
+    font-size: 12;
+    font-family: 'Rubik light', sans-serif;
 }
 
 .white-text {
@@ -17,4 +41,36 @@ h1 {
 .purple-text {
     color: #6C4CA4;
     margin: 10px;
+}
+
+.follow-me-text {
+    color: #6C4CA4;
+    
+}
+.first-section {
+    background-color: rgb(225, 208, 255);
+    margin: 30px 90px 90px 90px;
+    display: flex;
+}
+.second-section {
+    width: 100%;
+    margin: 0px;
+    background-color: #CDB6F5;
+}
+
+.initial-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagenYajha {
+    padding: 103px 84px 10px 84px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-orientation {
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
